@@ -1,1 +1,1 @@
-Hi
+DROP TABLE IF EXISTS schema.table_name CASCADE;
