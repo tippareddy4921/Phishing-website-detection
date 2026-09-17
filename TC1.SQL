@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS schema.table_name CASCADE;
+CREATE TABLE employees (id INT, name VARCHAR(100), age INT);
