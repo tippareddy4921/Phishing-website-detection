@@ -4,3 +4,5 @@ CREATE TABLE system_logs (
     action_performed VARCHAR(255),
     log_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+INSERT INTO Customers (CustomerName, Address, City) VALUES (@cname, @caddress, @ccity);
